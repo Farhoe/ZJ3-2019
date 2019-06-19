@@ -1,0 +1,80 @@
+body {
+  background-color: #c0e0ff;
+  margin: auto;
+}
+#content {
+  width: 1020px;
+  font-size: 16px;
+  position: relative;
+  margin: auto;
+  background-color: white;
+}
+.header {
+  width: 1020px;
+  background-image: url(img/header-arrow.gif), url(img/header-bg.gif);
+  background-position: top right, top left;
+  background-repeat: no-repeat, repeat;
+  height: 157px;
+  color: white;
+  position: relative;
+}
+.nav {
+  position: relative;
+}
+.uli {
+  background: url(img/menu-bg.gif) repeat-x;
+  display: inline-block;
+  height: 33px;
+  width: 1012px;
+  padding: 4px;
+  margin: 0;
+}
+.lii {
+  display: inline-block;
+  margin-left: 50px;
+}
+.leftcollumn {
+  float: left;
+  position: relative;
+  width: 750px;
+  padding: 5px;
+}
+.rightcollumn {
+  float: right;
+  position: relative;
+  width: 260px;
+}
+.footer {
+  background: url(img/menu-bg.gif) repeat-x;
+  text-align: center;
+  display: inline-block;
+  width: 1000px;
+  padding: 10px;
+  color: white;
+  height: 33px;
+  font-size: 10px;
+}
+.h {
+  padding: 20px;
+  font-size: 40px;
+}
+img {
+  border-style: solid;
+  border-width: 2px;
+}
+h3 {
+  background-color: #c0e0ff;
+  text-align: center;
+}
+a {
+  color: white;
+  font-size: 20px;
+  width: 200px;
+  height: 33px;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
